@@ -7,4 +7,9 @@ public class Car {
         this.wheels = wheels;
         this.cylinders = cylinders;
     }
+
+    @Override
+    public String toString() {
+        return "Wheels: " + wheels + "cylinders: " + cylinders + "\n";
+    }
 }
