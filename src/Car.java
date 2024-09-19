@@ -8,6 +8,11 @@ public class Car {
         this.cylinders = cylinders;
     }
 
+    @Override
+    public String toString() {
+        return "Wheels: " + wheels + "cylinders: " + cylinders + "\n";
+    }
+
     public boolean isWheels() {
         return wheels;
     }
@@ -24,8 +29,4 @@ public class Car {
         return cylinders;
     }
 
-    @Override
-    public String toString() {
-        return "Wheels: " + wheels + "cylinders: " + cylinders + "\n";
-    }
 }
